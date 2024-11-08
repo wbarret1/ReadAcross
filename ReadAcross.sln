@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReadAcross", "ReadAcross.csproj", "{959752ED-5C2F-43D8-9685-214889596906}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{959752ED-5C2F-43D8-9685-214889596906}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{959752ED-5C2F-43D8-9685-214889596906}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{959752ED-5C2F-43D8-9685-214889596906}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{959752ED-5C2F-43D8-9685-214889596906}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A040C0D7-910A-4AC8-9D29-C2B77F9B88C4}
+	EndGlobalSection
+EndGlobal

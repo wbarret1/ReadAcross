@@ -1,0 +1,203 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ReadAcross
+build_property.RootNamespace = ReadAcross
+build_property.ProjectDir = C:\Users\WBARRETT\OneDrive - Environmental Protection Agency (EPA)\Repos\ReadAcross\ReadAcross\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\WBARRETT\OneDrive - Environmental Protection Agency (EPA)\Repos\ReadAcross\ReadAcross
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/WBARRETT/OneDrive - Environmental Protection Agency (EPA)/Repos/ReadAcross/ReadAcross/Pages/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WBARRETT/OneDrive - Environmental Protection Agency (EPA)/Repos/ReadAcross/ReadAcross/Pages/Catalyst/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0YWx5c3RcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WBARRETT/OneDrive - Environmental Protection Agency (EPA)/Repos/ReadAcross/ReadAcross/Pages/Catalyst/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0YWx5c3RcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WBARRETT/OneDrive - Environmental Protection Agency (EPA)/Repos/ReadAcross/ReadAcross/Pages/Catalyst/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0YWx5c3RcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WBARRETT/OneDrive - Environmental Protection Agency (EPA)/Repos/ReadAcross/ReadAcross/Pages/Catalyst/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0YWx5c3RcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WBARRETT/OneDrive - Environmental Protection Agency (EPA)/Repos/ReadAcross/ReadAcross/Pages/Catalyst/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0YWx5c3RcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WBARRETT/OneDrive - Environmental Protection Agency (EPA)/Repos/ReadAcross/ReadAcross/Pages/Compound/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG91bmRcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WBARRETT/OneDrive - Environmental Protection Agency (EPA)/Repos/ReadAcross/ReadAcross/Pages/Compound/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG91bmRcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WBARRETT/OneDrive - Environmental Protection Agency (EPA)/Repos/ReadAcross/ReadAcross/Pages/Compound/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG91bmRcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WBARRETT/OneDrive - Environmental Protection Agency (EPA)/Repos/ReadAcross/ReadAcross/Pages/Compound/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG91bmRcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WBARRETT/OneDrive - Environmental Protection Agency (EPA)/Repos/ReadAcross/ReadAcross/Pages/Compound/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG91bmRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WBARRETT/OneDrive - Environmental Protection Agency (EPA)/Repos/ReadAcross/ReadAcross/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WBARRETT/OneDrive - Environmental Protection Agency (EPA)/Repos/ReadAcross/ReadAcross/Pages/FunctionalGroup/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY3Rpb25hbEdyb3VwXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WBARRETT/OneDrive - Environmental Protection Agency (EPA)/Repos/ReadAcross/ReadAcross/Pages/FunctionalGroup/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY3Rpb25hbEdyb3VwXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WBARRETT/OneDrive - Environmental Protection Agency (EPA)/Repos/ReadAcross/ReadAcross/Pages/FunctionalGroup/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY3Rpb25hbEdyb3VwXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WBARRETT/OneDrive - Environmental Protection Agency (EPA)/Repos/ReadAcross/ReadAcross/Pages/FunctionalGroup/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY3Rpb25hbEdyb3VwXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WBARRETT/OneDrive - Environmental Protection Agency (EPA)/Repos/ReadAcross/ReadAcross/Pages/FunctionalGroup/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY3Rpb25hbEdyb3VwXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WBARRETT/OneDrive - Environmental Protection Agency (EPA)/Repos/ReadAcross/ReadAcross/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WBARRETT/OneDrive - Environmental Protection Agency (EPA)/Repos/ReadAcross/ReadAcross/Pages/NamedReaction/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmFtZWRSZWFjdGlvblxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WBARRETT/OneDrive - Environmental Protection Agency (EPA)/Repos/ReadAcross/ReadAcross/Pages/NamedReaction/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmFtZWRSZWFjdGlvblxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WBARRETT/OneDrive - Environmental Protection Agency (EPA)/Repos/ReadAcross/ReadAcross/Pages/NamedReaction/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmFtZWRSZWFjdGlvblxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WBARRETT/OneDrive - Environmental Protection Agency (EPA)/Repos/ReadAcross/ReadAcross/Pages/NamedReaction/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmFtZWRSZWFjdGlvblxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WBARRETT/OneDrive - Environmental Protection Agency (EPA)/Repos/ReadAcross/ReadAcross/Pages/NamedReaction/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmFtZWRSZWFjdGlvblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WBARRETT/OneDrive - Environmental Protection Agency (EPA)/Repos/ReadAcross/ReadAcross/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WBARRETT/OneDrive - Environmental Protection Agency (EPA)/Repos/ReadAcross/ReadAcross/Pages/Reactant/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVhY3RhbnRcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WBARRETT/OneDrive - Environmental Protection Agency (EPA)/Repos/ReadAcross/ReadAcross/Pages/Reactant/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVhY3RhbnRcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WBARRETT/OneDrive - Environmental Protection Agency (EPA)/Repos/ReadAcross/ReadAcross/Pages/Reactant/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVhY3RhbnRcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WBARRETT/OneDrive - Environmental Protection Agency (EPA)/Repos/ReadAcross/ReadAcross/Pages/Reactant/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVhY3RhbnRcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WBARRETT/OneDrive - Environmental Protection Agency (EPA)/Repos/ReadAcross/ReadAcross/Pages/Reactant/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVhY3RhbnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WBARRETT/OneDrive - Environmental Protection Agency (EPA)/Repos/ReadAcross/ReadAcross/Pages/Reference/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVmZXJlbmNlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WBARRETT/OneDrive - Environmental Protection Agency (EPA)/Repos/ReadAcross/ReadAcross/Pages/Reference/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVmZXJlbmNlXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WBARRETT/OneDrive - Environmental Protection Agency (EPA)/Repos/ReadAcross/ReadAcross/Pages/Reference/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVmZXJlbmNlXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WBARRETT/OneDrive - Environmental Protection Agency (EPA)/Repos/ReadAcross/ReadAcross/Pages/Reference/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVmZXJlbmNlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WBARRETT/OneDrive - Environmental Protection Agency (EPA)/Repos/ReadAcross/ReadAcross/Pages/Reference/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVmZXJlbmNlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WBARRETT/OneDrive - Environmental Protection Agency (EPA)/Repos/ReadAcross/ReadAcross/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WBARRETT/OneDrive - Environmental Protection Agency (EPA)/Repos/ReadAcross/ReadAcross/Pages/Solvent/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29sdmVudFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WBARRETT/OneDrive - Environmental Protection Agency (EPA)/Repos/ReadAcross/ReadAcross/Pages/Solvent/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29sdmVudFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WBARRETT/OneDrive - Environmental Protection Agency (EPA)/Repos/ReadAcross/ReadAcross/Pages/Solvent/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29sdmVudFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WBARRETT/OneDrive - Environmental Protection Agency (EPA)/Repos/ReadAcross/ReadAcross/Pages/Solvent/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29sdmVudFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WBARRETT/OneDrive - Environmental Protection Agency (EPA)/Repos/ReadAcross/ReadAcross/Pages/Solvent/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29sdmVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WBARRETT/OneDrive - Environmental Protection Agency (EPA)/Repos/ReadAcross/ReadAcross/Pages/UserGuide.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlckd1aWRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WBARRETT/OneDrive - Environmental Protection Agency (EPA)/Repos/ReadAcross/ReadAcross/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WBARRETT/OneDrive - Environmental Protection Agency (EPA)/Repos/ReadAcross/ReadAcross/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WBARRETT/OneDrive - Environmental Protection Agency (EPA)/Repos/ReadAcross/ReadAcross/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-i7ilip3mbs

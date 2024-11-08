@@ -1,0 +1,54 @@
+@page
+@model ReadAcross.Pages_FunctionalGroup.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>FunctionalGroup</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <inpu
+    using ReadAcross.Models;
+
+            <div class="form-group">
+                <label asp-for="FunctionalGroup.Name" class="control-label"></label>
+                <input asp-for="FunctionalGroup.Name" class="form-control" />
+                <span asp-validation-for="FunctionalGroup.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FunctionalGroup.Smarts" class="control-label"></label>
+                <input asp-for="FunctionalGroup.Smarts" class="form-control" />
+                <span asp-validation-for="FunctionalGroup.Smarts" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FunctionalGroup.Image" class="control-label"></label> 
+                <img src="~/@Model.FunctionalGroup.Image" class="img-fluid" width="200" />               
+                @* <input asp-for="FunctionalGroup.Image" class="form-control" /> *@
+                <input asp-for="FunctionalGroup.Image" class="form-control" type="file" onchange="preview(this)" accept="image/*" />
+                <span asp-validation-for="FunctionalGroup.Image" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FunctionalGroup.URL" class="control-label"></label>
+                <input asp-for="FunctionalGroup.URL" class="form-control" />
+                <span asp-validation-for="FunctionalGroup.URL" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

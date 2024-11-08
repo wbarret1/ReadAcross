@@ -1,0 +1,94 @@
+@page
+@model ReadAcross.Pages_NamedReaction.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>NamedReaction</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NamedReaction.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NamedReaction.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NamedReaction.ReactantA)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NamedReaction.ReactantA)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NamedReaction.ReactantB)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NamedReaction.ReactantB)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NamedReaction.ReactantC)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NamedReaction.ReactantC)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NamedReaction.Product)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NamedReaction.Product)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NamedReaction.Heat)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NamedReaction.Heat)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NamedReaction.AcidBase)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NamedReaction.AcidBase)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NamedReaction.Image)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NamedReaction.Image)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NamedReaction.Url)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NamedReaction.Url)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NamedReaction.Catalyst)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NamedReaction.Catalyst.Id)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NamedReaction.FunctionalGroup)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NamedReaction.FunctionalGroup.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NamedReaction.Solvent)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NamedReaction.Solvent.Id)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="NamedReaction.Id" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-page="./Index">Back to List</a>
+    </form>
+</div>

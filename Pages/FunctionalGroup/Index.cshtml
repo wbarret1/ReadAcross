@@ -1,0 +1,87 @@
+@page
+@model ReadAcross.Pages_FunctionalGroup.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+@* <h1>Index</h1> *@
+
+@* <form>
+    <p>
+        Entire either the Functional Group name or a Compound's Smiles string to get a list of Functional Groups in the
+        Compound: <input type="text" asp-for="SearchString" /> 
+        <input type="submit" value="Filter" />
+    </p>
+</form> *@
+
+<form>
+    <p>
+        Entire either the Functional Group name or a Compound's Smiles string to get a list of Functional Groups in the Compound:  <input type="text" asp-for="SearchString" />
+        <input type="submit" value="Filter" />
+    </p>
+</form>
+
+<p>
+    This page provides links to non-EPA web sites that provide additional information about the functional groups listed
+    below. You will leave the EPA.gov domain and enter another page with
+    more information. EPA cannot attest to the accuracy of information on that non-EPA page. Providing links to a
+    non-EPA Web site is not an endorsement of the other site or
+    the information it contains by EPA or any of its employees. Also, be aware that the privacy protection provided on
+    the EPA.gov domain
+    (see <a href="/home/privacy-and-security-notice">Privacy and Security Notice</a>) may not be available at the
+    external link.
+    <span class="disclaimer">
+        The following links exit the site <a class="exit-disclaimer" href="https://www.epa.gov/home/exit-epa"
+            title="EPA's External Link Disclaimer">Exit</a>
+    </span>
+</p>
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FunctionalGroup[0].Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FunctionalGroup[0].Smarts)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FunctionalGroup[0].Image)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FunctionalGroup[0].URL)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.FunctionalGroup)
+        {
+            <tr>
+                <td>
+                    <a asp-page="./Details" asp-route-id="@item.Id">@item.Name</a>
+                    @* @Html.DisplayFor(modelItem => item.Name) *@
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Smarts)
+                </td>
+                <td>
+                    <img src="~/@item.Image" class="img-fluid" width="200" />
+                    @* @Html.DisplayFor(modelItem => item.Image) *@
+                </td>
+                <td>
+                    <a href="@Html.DisplayFor(modelItem => item.URL)" target="_newtab"> @Html.DisplayFor(modelItem => item.URL)</a>
+                    @*  @Html.DisplayFor(modelItem => item.URL) *@
+                </td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,2 @@
+c:/Users/WBARRETT/OneDrive/ -/ Environmental/ Protection/ Agency/ (EPA)/Repos/ReadAcross/ReadAcross/ChemInfo/Antlr/ Generated/ Files/smiles.interp
+c:/Users/WBARRETT/OneDrive/ -/ Environmental/ Protection/ Agency/ (EPA)/Repos/ReadAcross/ReadAcross/ChemInfo/Antlr/ Generated/ Files/smilesLexer.interp

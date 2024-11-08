@@ -1,0 +1,86 @@
+@page
+@model ReadAcross.Pages_NamedReaction.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>NamedReaction</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="NamedReaction.Name" class="control-label"></label>
+                <input asp-for="NamedReaction.Name" class="form-control" />
+                <span asp-validation-for="NamedReaction.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NamedReaction.ReactantA" class="control-label"></label>
+                <input asp-for="NamedReaction.ReactantA" class="form-control" />
+                <span asp-validation-for="NamedReaction.ReactantA" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NamedReaction.ReactantB" class="control-label"></label>
+                <input asp-for="NamedReaction.ReactantB" class="form-control" />
+                <span asp-validation-for="NamedReaction.ReactantB" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NamedReaction.ReactantC" class="control-label"></label>
+                <input asp-for="NamedReaction.ReactantC" class="form-control" />
+                <span asp-validation-for="NamedReaction.ReactantC" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NamedReaction.Product" class="control-label"></label>
+                <input asp-for="NamedReaction.Product" class="form-control" />
+                <span asp-validation-for="NamedReaction.Product" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NamedReaction.Heat" class="control-label"></label>
+                <input asp-for="NamedReaction.Heat" class="form-control" />
+                <span asp-validation-for="NamedReaction.Heat" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NamedReaction.AcidBase" class="control-label"></label>
+                <input asp-for="NamedReaction.AcidBase" class="form-control" />
+                <span asp-validation-for="NamedReaction.AcidBase" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NamedReaction.Image" class="control-label"></label>
+                <input asp-for="NamedReaction.Image" class="form-control" />
+                <span asp-validation-for="NamedReaction.Image" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NamedReaction.CatalystId" class="control-label"></label>
+                <select asp-for="NamedReaction.CatalystId" class ="form-control" asp-items="ViewBag.CatalystId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="NamedReaction.FunctionalGroupId" class="control-label"></label>
+                <select asp-for="NamedReaction.FunctionalGroupId" class ="form-control" asp-items="ViewBag.FunctionalGroupId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="NamedReaction.SolventId" class="control-label"></label>
+                <select asp-for="NamedReaction.SolventId" class ="form-control" asp-items="ViewBag.SolventId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="NamedReaction.Url" class="control-label"></label>
+                <input asp-for="NamedReaction.Url" class="form-control" />
+                <span asp-validation-for="NamedReaction.Url" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
